@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', "Roboto", sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  color: rgb(36, 36, 36);
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.5;
+  padding:0px;
+}
+#main {
+  width:100%;
+  background-color: rgba(145, 142, 142, 0.199);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  padding: 20px 16px 10px;
+  border-radius: 5px;
+  align-items: center;
+  overflow: hidden;
+  font-weight: bolder;
+}
+.header > #title {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.header > p {
+  margin:-10px 0px 20px;
+}
+
+
+#main > #img-div {
+  background-color: white;
+  margin: -8px auto;
+  padding: 0px 10px;
+  width:100%;
+}
+#img-div #image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin:0 auto;
+}
+
+#img-div > #img-caption {
+  margin: 15px 10px 15px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1em;
+  vertical-align: inherit;
+}
+#main h3 {
+  margin: 50px auto 35px;
+  color:black;
+}
+
+.info-general {
+  margin: 35px auto;
+  text-align: left;
+  margin:0px 50px;
+  max-width: 650px;
+}
+
+.info-general li{
+  margin-bottom:20px;
+  font-size:1.01em;
+}
+
+
+.info-general p {
+  margin:25px;
+}
+
+.info-general .sentence {
+  margin-top: 50px;
+}
+.bold{
+  font-weight: bold;
+}
+#tribute-info {
+  font-size: 1.2em;
+}
+#tribute-info a {
+  color:rgba(151, 100, 176, 0.916);
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+#tribute-info a:visited{
+  color:rgba(128, 86, 149, 0.916);
+}
